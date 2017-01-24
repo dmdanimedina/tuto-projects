@@ -1,0 +1,35 @@
+<template name="projects">
+    <div class="row">
+        <div class="col s12">
+            <h2>Mis Proyectos</h2>
+            <a class="btn" href="{{ pathFor 'project_form'}}">
+                Añadir Nuevo Proyecto
+            </a>
+
+            {{> EasySearch.Input index=projects }}
+
+                <ul class="collection with-header">
+
+                    {{#EasySearch.Each index=projects}}
+
+                        <li class="collection-item">
+                            <div>
+                                {{name}}
+
+                                {{> projects_link }}
+                            </div>
+                        </li>
+                    {{/EasySearch.Each}}
+
+                    {{#EasySearch.IfNoResults index=projects}}
+                        <li class="collection-item">No tienes ninguno proyecto...</li>
+                    {{/EasySearch.IfNoResults}}
+
+                    {{#EasySearch.IfSearching index=projects}}
+                        <li class="collection-item">Buscando...</li>
+                    {{/EasySearch.IfSearching}}
+            </ul>
+            {{>EasySearch.Pagination index=projects}}
+        </div>
+    </div>
+</template>
