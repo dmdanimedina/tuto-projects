@@ -3,6 +3,7 @@
  */
 import { Meteor } from 'meteor/meteor';
 
+
 Template.projects.events({
     'click .remove': function(event, template){
        // console.log(this._id);
@@ -10,7 +11,7 @@ Template.projects.events({
     },
     'click .sql': function(event, template){
         // console.log(this._id);
-        Meteor.call('execSql');
+       // Meteor.call('execSql');
         Meteor.call('dbquery',(err,res) => {
             console.log(res);
         })
@@ -20,13 +21,23 @@ Template.projects.events({
 Template.projects.onCreated(function(){
 console.log(Meteor.subscribe('listQuery'));
     this.autorun( computation => {
-     this.skill = this.subscribe('listQuery');
+     this.subscribe('listQuery');
     })
 })
 
 Template.projects.helpers({
-    rows: function(){
-            console.log(Template.instance());
-        //return Template.instance();
+        /*
+         rows: function(){
+         console.log(Template.instance());
+         return Template.instance();
+
+         }
+         */
+
+
+        get_uri: function () {
+            console.log(Meteor.subscribe('listQuery'))
+            return [{"nombre":"daniel"}, {"nombre":"memo"}]
+        }
     }
-})
+)

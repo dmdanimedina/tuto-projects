@@ -43,7 +43,7 @@ function executableStatement(){
                 r = r + ' ' + column.value;
                 r2 = r2 + ' ' + column.value;
             });
-            console.log('\n ', r);
+           // console.log('\n ', r);
         });
 
         connection.execSql(request);
@@ -66,10 +66,14 @@ Meteor.publish('listQuery', function()
         console.log(JSON.stringify(rows))
     });
     */
-
+/*
      sequelize.query("Select * from cliente",{type: sequelize.QueryTypes.SELECT}).then(function(rows){
          return JSON.stringify(rows);
     });
+*/
 
+    sequelize.query("Select * from cliente",{type: sequelize.QueryTypes.SELECT}).then(function(rows){
+        return JSON.stringify(rows);
+    });
 });
 
