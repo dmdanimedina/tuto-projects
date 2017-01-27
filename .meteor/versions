@@ -32,6 +32,7 @@ ddp-rate-limiter@1.0.6
 ddp-server@1.2.10
 deps@1.0.12
 diff-sequence@1.0.7
+donaldaverill:tedious@1.10.0_2
 easy:search@2.0.9
 easysearch:components@2.0.9
 easysearch:core@2.0.9

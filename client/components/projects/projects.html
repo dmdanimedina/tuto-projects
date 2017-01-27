@@ -6,6 +6,11 @@
                 Añadir Nuevo Proyecto
             </a>
 
+            <a style="margin-left: 20px"
+               href="#"
+               class = " btn secondary-content sql">
+                <i class="material-icons">ver sql</i>
+            </a>
             {{> EasySearch.Input index=projects }}
 
                 <ul class="collection with-header">
@@ -31,5 +36,14 @@
             </ul>
             {{>EasySearch.Pagination index=projects}}
         </div>
+        <div class="s12">
+        bla bla bla
+            <ul>
+                {{#each skill}}
+                   <li>{{nombre}}</li>
+                {{/each}}
+            </ul>
+        </div>
     </div>
+
 </template>

@@ -316,6 +316,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.10.6/web.browser/packages/momentjs_moment.js" />
         <item url="file://$USER_HOME$/.meteor/packages/peerlibrary_computed-field/0.3.1/web.browser/packages/peerlibrary_computed-field.js" />
         <item url="file://$USER_HOME$/.meteor/packages/less/1.0.14/web.browser/packages/less.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/donaldaverill_tedious/1.10.0_2/web.browser/packages/donaldaverill:tedious.js" />
         <item url="file://$USER_HOME$/.meteor/packages/peerlibrary_data-lookup/0.1.0/web.browser/packages/peerlibrary_data-lookup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.12/web.browser/localstorage.js" />
@@ -656,6 +657,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/momentjs_moment/2.10.6/web.browser/packages/momentjs_moment.js" />
       <root url="file://$USER_HOME$/.meteor/packages/peerlibrary_computed-field/0.3.1/web.browser/packages/peerlibrary_computed-field.js" />
       <root url="file://$USER_HOME$/.meteor/packages/less/1.0.14/web.browser/packages/less.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/donaldaverill_tedious/1.10.0_2/web.browser/packages/donaldaverill:tedious.js" />
       <root url="file://$USER_HOME$/.meteor/packages/peerlibrary_data-lookup/0.1.0/web.browser/packages/peerlibrary_data-lookup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/random/1.0.10/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.12/web.browser/localstorage.js" />

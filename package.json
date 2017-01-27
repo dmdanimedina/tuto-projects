@@ -7,6 +7,8 @@
   "dependencies": {
     "babel-runtime": "^6.22.0",
     "bcrypt": "^1.0.1",
-    "meteor-node-stubs": "~0.2.0"
+    "meteor-node-stubs": "~0.2.0",
+    "sequelize": "^3.30.0",
+    "tedious": "^1.14.0"
   }
 }
