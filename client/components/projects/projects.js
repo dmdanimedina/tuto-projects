@@ -21,7 +21,7 @@ Template.projects.events({
 Template.projects.onCreated(function(){
 console.log(Meteor.subscribe('listQuery'));
     this.autorun( computation => {
-     this.subscribe('listQuery');
+     return this.subscribe('listQuery');
     })
 })
 

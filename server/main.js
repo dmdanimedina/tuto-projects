@@ -73,7 +73,7 @@ Meteor.publish('listQuery', function()
 */
 
     sequelize.query("Select * from cliente",{type: sequelize.QueryTypes.SELECT}).then(function(rows){
-        return JSON.stringify(rows);
+        return data = [JSON.stringify(rows)];
     });
 });
 
